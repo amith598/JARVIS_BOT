@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 **🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
 ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-[ᴍʏ Mⱥຮteℝ🔥](t.me/shrvan42).
+[ᴍʏ Mⱥຮteℝ🔥](t.me/NOOBX7).
  
 ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
 """
@@ -64,7 +64,7 @@ HELP_STRINGS = """
  ➥ /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
-TECHNO_IMG = "https://telegra.ph/file/ad2934de00779c4a59db3.jpg"
+TECHNO_IMG = "https://telegra.ph/file/15fec88895d4738fdc0d5.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -131,8 +131,8 @@ def send_help(chat_id, text, keyboard=None):
 @run_async
 def alain(bot: Bot, update: Update):
     pprint(eval(str(update)))
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/JARVIS_SOURCE_CODE)", parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/JARVIS_SOURCE_CODE)_", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*Our Another Bot* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/amith_aspro_bot)", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*Donate Some Money* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/NOOBX7)_", parse_mode=ParseMode.MARKDOWN)
     print(update.effective_message)
 
 @run_async
@@ -171,7 +171,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                             callback_data="help_back".format(bot.username)),
                          InlineKeyboardButton(
                              text="UPDATES 🔀",
-                             url="https://t.me/tg_coders_updates")
+                             url="https://t.me/DrNarutoNews")
                      ],
                      [
                          InlineKeyboardButton(
@@ -181,7 +181,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
     else:
         update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 𝗢𝗣 𝘽𝙊𝙏 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/JARVIS_SECURITY_BOT?start=help".format(bot.username))]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/DrNaruto_bot?start=help".format(bot.username))]]))
 
 
 def send_start(bot, update):
@@ -282,7 +282,7 @@ def get_help(bot: Bot, update: Update):
 
         update.effective_message.reply_text("ʜᴇʏᴀ, ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/Timepass_Assistant_bot?start=help".format(bot.username))],
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/DrNaruto_bot?start=help".format(bot.username))],
                                                 [InlineKeyboardButton(text="🔀 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🔀",url="https://t.me/devilbotSUPPORT")]]))
                                                 
         
@@ -384,6 +384,8 @@ def send_settings(chat_id, user_id, user=False):
                                         reply_markup=InlineKeyboardMarkup(
                                             paginate_modules(0, CHAT_SETTINGS, "stngs", chat=chat_id)))
         else:
+
+            dispatcher.bot.send_message(user_id, "
             dispatcher.bot.send_message(user_id, "sᴇᴇᴍs ʟɪᴋᴇ ᴛʜᴇʀᴇ ᴀʀᴇɴ'ᴛ ᴀɴʏ ᴄʜᴀᴛ sᴇᴛᴛɪɴɢs ᴀᴠᴀɪʟᴀʙʟᴇ :'(\nsᴇɴᴅ ᴛʜɪs "
                                                  "ɪɴ ᴀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ʏᴏᴜ'ʀᴇ ᴀᴅᴍɪɴ ɪɴ ᴛᴏ ғɪɴᴅ ɪᴛs ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs!",
                                         parse_mode=ParseMode.MARKDOWN)
@@ -468,7 +470,7 @@ def get_settings(bot: Bot, update: Update):
             msg.reply_text(text,
                            reply_markup=InlineKeyboardMarkup(
                                [[InlineKeyboardButton(text="🎛 ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ sᴇᴛᴛɪɴɢs 🎛",
-                                                      url="t.me/timepass_assistant_bot?start=stngs_{}".format(
+                                                      url="t.me/DrNaruto_bot?start=stngs_{}".format(
                                                           bot.username, chat.id))]]))
         else:
             text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs 🔥."
@@ -509,7 +511,7 @@ def source(bot: Bot, update: Update):
             bot.send_message(user.id, SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
 
             update.effective_message.reply_text("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🔥",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴘᴍ",url="t.me/timepass_Assistant_bot")]]))
+                                                [[InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴘᴍ",url="t.me/NOOBX7")]]))
         except Unauthorized:
             update.effective_message.reply_text("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғɪʀsᴛ ᴛᴏ ɢᴇᴛ sᴏᴜʀᴄᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.")
 
